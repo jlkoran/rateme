@@ -1,0 +1,61 @@
+h2 {
+  color: gray;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+#title {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+#instructions {
+
+}
+
+#options {
+  /*column-count: 2;*/
+  column-width: 500px;
+}
+
+.half-column {
+  column-span: none;
+}
+
+.half-column img {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.half-column span {
+  line-height: 2;
+}
+
+.half-column a {
+  text-decoration: none;
+}
+
+.half-column a:hover {
+  color: red;
+  font-size: 20pt;
+  transition: font-size 0.5s;
+
+}
+
+/*@media screen and (min-width: 640px) {
+    #options {
+      column-width: 100%;
+    }
+
+    .half-column {
+      /*width: 90%;
+      display: block;
+      float: none;*/
+    }
+}*/
